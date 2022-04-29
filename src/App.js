@@ -3,7 +3,7 @@ import { dateBuilder } from './builders/DateBuilder'
 import SearchField from './components/SearchField'
 
 const api = {
-  key: "81b4ebeb2acf9c3a12079017917197ab",
+  key: REACT_APP_API_KEY,
   base: "https://api.openweathermap.org/data/2.5/"
 }
 
